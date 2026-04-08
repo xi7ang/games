@@ -1,11 +1,11 @@
 name: 'Games Notify'
-description: 'A simple GitHub Action to print a message'
+description: 'Notification action for games repository'
 author: 'mswnlz'
 inputs:
   message:
     description: 'The message to print'
     required: false
-    default: 'Hello from AIknowledge Action!'
+    default: 'Hello from Games Action!'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
