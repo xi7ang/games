@@ -1,9 +1,0 @@
-{
-  "name": "games-action",
-  "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "@actions/core": "^1.10.0"
-  },
-  "description": "Notification action for games repository"
-}
